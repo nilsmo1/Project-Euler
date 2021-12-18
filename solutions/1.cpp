@@ -5,9 +5,7 @@ using ll = int64_t;
 
 int main() {
     ll total = 0;
-    for (int i=3; i<1000; i++) {
-        total += (i%3==0 || i%5==0)*i;
-    }
+    for (int i=3; i<1000; i++) { total += (i%3==0 || i%5==0)*i; }
     cout << "ANSWER: " << total << endline;
     return 0;
 }
