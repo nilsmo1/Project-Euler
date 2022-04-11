@@ -20,5 +20,3 @@ int main() {
         if (val > max) { max = val; num = i; }
     }
     cout << "ANSWER: " << num << endline;
-    return 0;
-}
